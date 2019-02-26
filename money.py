@@ -103,5 +103,5 @@ class Money:
         """
         Divide a money object by a number to get a new money object.
         """
-        self.amount //= divisor
+        self.amount /= divisor
         return self
